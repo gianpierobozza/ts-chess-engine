@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "dist",
+    "lib": ["es2017"]
+  },
+  "include": ["src"],
+  "exclude": [
+    "./test/",
+    "./node_modules/",
+    "./dist/"
+  ]
+}
